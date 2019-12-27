@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0368185123B6065D00BDB88C /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0368185023B6065D00BDB88C /* Dictionary.swift */; };
+		0368185323B60DC600BDB88C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0368185223B60DC600BDB88C /* Menu.swift */; };
 		03EEA47F23B57DD400ED3719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EEA47E23B57DD400ED3719 /* AppDelegate.swift */; };
 		03EEA48123B57DD400ED3719 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EEA48023B57DD400ED3719 /* SceneDelegate.swift */; };
 		03EEA48423B57DD400ED3719 /* PictureGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03EEA48223B57DD400ED3719 /* PictureGame.xcdatamodeld */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0368185023B6065D00BDB88C /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		0368185223B60DC600BDB88C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		03EEA47B23B57DD400ED3719 /* PictureGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EEA47E23B57DD400ED3719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03EEA48023B57DD400ED3719 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		03EEA47D23B57DD400ED3719 /* PictureGame */ = {
 			isa = PBXGroup;
 			children = (
+				0368185023B6065D00BDB88C /* Dictionary.swift */,
+				0368185223B60DC600BDB88C /* Menu.swift */,
 				03EEA47E23B57DD400ED3719 /* AppDelegate.swift */,
 				03EEA48023B57DD400ED3719 /* SceneDelegate.swift */,
 				03EEA48523B57DD400ED3719 /* ContentView.swift */,
@@ -149,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0368185323B60DC600BDB88C /* Menu.swift in Sources */,
 				03EEA47F23B57DD400ED3719 /* AppDelegate.swift in Sources */,
+				0368185123B6065D00BDB88C /* Dictionary.swift in Sources */,
 				03EEA48123B57DD400ED3719 /* SceneDelegate.swift in Sources */,
 				03EEA48623B57DD400ED3719 /* ContentView.swift in Sources */,
 				03EEA48423B57DD400ED3719 /* PictureGame.xcdatamodeld in Sources */,
